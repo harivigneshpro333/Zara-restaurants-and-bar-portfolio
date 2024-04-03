@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&family=Mr+Bedfort&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.font_fam{
+    font-family: 'Macondo Swash Caps','sans serif';
+}
+.font_fam1{
+    font-family: 'Times New Roman', Times, serif !important;
+    word-spacing: 0px !important;
+}
+.font_fam2{
+    font-family:  'serif',sans-serif !important;
+    word-spacing: 0px !important;
+}
+
+.img_filt{
+    filter: brightness(60%);
+}
+.colo:hover{
+    color: blue !important;
+    transition: 1s;
+    font-weight: bold;
+}
+.btn:hover{
+    transition: 1s !important;
+}
+i:hover{
+    color: blue !important;
+    transition: 1s !important;
+
+}
+
+
+
+/*tab and Mobile Reponse For Button And text   */
+@media all and (max-width:1000px) and (min-width:100px){
+
+.hide{
+    display: none !important;
+    color: red !important;  
+
+}
+.card-text{
+    width: 100% !important;
+}
+.colo:hover{
+    color: blue !important;
+    transition: 1s;
+    font-size: 1.0em;
+    padding-top: 1.0em;
+    padding-left: 0.7em;
+
+}
+}
+/* img fit for Mobile View */
+@media all and (max-width:450px) and (min-width:100px){
+    .img_filt{
+        height: 60vh !important;
+    }
+    .colo:hover{
+        color: blue !important;
+        transition: 1s;
+        font-size: 1.0em;
+        padding-top: 1.0em;
+        padding-left: 0.7em;
+    
+    }
+    
+}
+/* --------------------------------gallery ---------------------------- */
+/* control the fit the caruosel  button slider */
+.carousel-item img{
+    height: 80vh !important;
+    width:100% !important; 
+    object-fit:cover !important;
+    color: red !important;
+}
+
+/* marquee Auto hor-moving img */
+.marquee-container{
+    width: 100% !important;
+    overflow: hidden;
+
+}
+.marquee-content{
+    display: flex;
+    white-space: nowrap;
+    animation: marquee 15s linear infinite ;
+
+}
+
+@keyframes marquee {
+    from {transform: translateX(0%);}
+    to{transform: translateX(-100%);}
+
+}
+
+/* ----.----------------------------------About-------------------------------------- */
+.card img:hover {
+    
+    filter: brightness(60%) !important;
+    cursor: pointer !important;
+
+}
+
+/* menu  */
+
+.wid{
+    width: 48% !important;
+    margin: 1% !important;
+
+}
+.mar_hei{
+    height: 80vh !important;
+
+}
+@media all and (max-width:1000px) and (min-width:100px){
+    .wid{
+        width: 98% !important;
+        margin: 1% !important;
+
+
+    }
+    .mar_hei{
+        height: 30vh !important;
+        
+    }
+    
+}
+
+/* book col */
+.bor_der{
+    border-radius: 1px !important;
+
+}
+
+/* hr css property */
+
+hr{
+    height: 3px !important;
+    background: white !important;
+}
+.padd_ing{
+    margin-left: 30% !important;
+}
+@media all and (max-width:1000px) and (min-width:100px){
+    .padd_ing{
+        padding-top: 20px !important;
+        margin: 0 !important;
+        
+    }
+    iframe{
+        width:100% !important;
+        height:400px !important;
+    }
+
+}
+/* booking page */
+.anch{
+    text-decoration: none !important;
+    color: white !important;
+}
+.anch:hover{
+    color: blue !important;
+    transition: 1s ease-in-out;
+}
+.padd{
+    padding: 10px !important;
+    border: none !important;
+    border-radius:10px !important;
+    background-color:rgb(247, 247, 247) !important;
+}

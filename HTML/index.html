@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ZARA Restaurant & Bar</title>
+<!-- css -->
+<link rel="stylesheet" href="/CSS/style.css">
+<!-- Bootstrap css -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<!-- fontawesome cdn Link  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <!-- ----------------------------------- nav bar --------------------------------- -->
+  <nav class="navbar navbar-expand-lg bg-light sticky-top" >
+    <div class="container-fluid">
+      <a class="navbar-brand px-5" href="#" style="font-size: 30px;"><i class="fa-solid fa-bowl-food"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fa-solid fa-arrow-down"></i></span>
+        </button>
+      <div class="collapse navbar-collapse justify-content-end fs-5 mx-3" id="navbarNav">
+        <ul class="navbar-nav ">
+          <li class="nav-item ">
+            <a class="nav-link text-center colo " href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-center colo" href="#about">About</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-center colo" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-center colo" href="#contact">Contact us</a>
+          </li>
+    
+        </ul>
+      </div>
+      <a href="booking.html" class="btn btn-outline-dark hide bor_der fw-bold">BOOK NOW</a>  
+    </div>
+    
+  </nav>
+
+<!-- ----------------------------------  Header  --------------------------->   
+  <div class="card text-bg-dark" >
+        <img src="/COLLECTION/Head_img.jpg" class="card-img img_filt" alt="bar" style="height: 110vh;">
+        <div class="card-img-overlay">
+        <h5 class="card-title text-center display-6 fw-normal font_fam">ZARA .</h5>
+        <br><br><br><br>
+        <p class="card-text text-center display-1  fw-semibold container" style="width: 70%;" >Immerse yourself in a premium dining experience.</p>
+        <br>
+        <p class="text-center"><a href="/HTML/booking.html" class="btn btn-outline-light py-1 px-3 fw-semibold ">BOOK NOW</a></p>
+        </div>
+  </div>
+  
+  <!-- -----------------------------------bottom-right banner------------- -->
+    <p class=" btn position-fixed bottom-0 end-0 z-3" ><a href="#" class="btn text-dark fw-bolder bg-light"> Made in Boostraps</a></p>
+
+<!----------------------------------Gallery--------------------  -->
+  <div class="container-fluid" style="height: auto;" id="gallery">
+        <div class="row col-11">
+            <p class="fs-1 mx-4  mt-5 pt-5 fw-bolder font_fam1">Discover Our Rooftop Terrace, Equipped With A Personal Bar And Breathtaking City View.</p>
+        </div>
+        <div class="but"><a href="#gallery" class="btn btn-outline-dark mx-4 bor_der my-2 px-4 fw-bold">VIEW OUR GALLERY</a></div>
+  <!-- -----------------------------image slider------------- -->
+        <div class="row py-4 px-4" >
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" class="active" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item "  data-bs-interval="4000">
+                <img src="/COLLECTION/Gallery/gal1.webp" class="d-block w-100 img-fluid" alt="Not found" loading="lazy">
+              </div>
+              <div class="carousel-item"  data-bs-interval="2000">
+                <img src="/COLLECTION/Gallery/gal2.jpg" class="d-block w-100 img-fluid" alt="not found" loading="lazy">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="/COLLECTION/Gallery/gal3.webp" class="d-block w-100 img-fluid" alt="not found" loading="lazy">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="/COLLECTION/Gallery/gal4.jpg" class="d-block w-100 img-fluid" alt="not found" loading="lazy">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="/COLLECTION/Gallery/gal5.jpg" class="d-block w-100 img-fluid" alt="not found" loading="lazy">
+              </div>
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img src="/COLLECTION/Gallery/gal6.jpg" class="d-block w-100 img-fluid" alt="not found" loading="lazy">
+              </div>
+            </div>
+            <!-------------------------------- button --------------------->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+  <!-- --------------------------------marquee------------------ -->
+        <div class="row my-3" >
+          <div class="marquee-container">
+            <div class="marquee-content">
+              <img class="px-1  col-5" src="/COLLECTION/Gallery/marquee/mar1.jpg" alt="no img"  loading="lazy">
+              <img class="px-1  col-5" src="/COLLECTION/Gallery/marquee/mar4.jpg" alt="no img"  loading="lazy">
+              <img class="px-1  col-5" src="/COLLECTION/Gallery/marquee/mar3.jpg" alt="no img"  loading="lazy">
+              <img class="px-1  col-5" src="/COLLECTION/Gallery/marquee/mar2.jpg" alt="no img"  loading="lazy">
+              <img class="px-1  col-5"src="/COLLECTION/Gallery/marquee/mar5.webp" alt="no img"  loading="lazy">
+              <img class="px-1  col-5" src="/COLLECTION/Gallery/marquee/mar1.jpg" alt="no img"  loading="lazy">
+              <img class="px-1  col-5" src="/COLLECTION/Gallery/marquee/mar3.jpg" alt="no img"  loading="lazy">
+            </div>
+          </div>  
+        </div>
+ 
+  </div>
+
+<!-- -------------------------------about------------------------- -->  
+  <div class="container-fluid " style="height: auto;" id="about">
+  <div class="row col-lg-10 col-12">
+        <p class="mt-5 pt-5 font_fam1 text-muted mx-4 px-3">ZARA'S CONCEPT REVOLVES AROUND</p>
+        <p class="mx-4 fw-bolder font_fam1 display-3 " >Cooking Only On Open Flames.</p>
+  </div>
+<!-- card_about -->
+  <div class="row row-cols-1 row-cols-md-3 g-4 mx-3 my-2 ">
+    <div class="col ">
+      <div class="card h-100 " >
+        
+        <img src="/COLLECTION/About/card1.jpg" class="card-img-top " alt="not found" loading="lazy" style="height: 300px !important;">
+          <div class="card-body">
+          <p class="card-text h3 fw-bolder py-3 ">Even the inside, kept simple to emphasize the historical building it is housed in, is hearth-like.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+          <img src="/COLLECTION/About/card2.jpg" class="card-img-top " alt="not found" loading="lazy" style="height: 300px !important;">
+        <div class="card-body">
+          <p class="card-text h3 fw-bolder py-3 ">The menu at Zolia centers around the innovative use of wood flame, without electricity or gas.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+          <img src="/COLLECTION/About/card3.webp" class="card-img-top " alt="not found" loading="lazy" style="height: 300px !important;">
+        <div class="card-body">
+          <p class="card-text h3 fw-bolder py-3 ">Spanning three levels—the main dining room, a wine lounge and a rooftop bar.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--------------------------------------------- display_about---------------------------- -->
+  <div class="row px-4 my-4">
+  <p class="display-5 fw-bold font_fam1 col-lg-10 col-12" >Various Kinds Of Wood - Ironbark, Apple Wood And Olive Wood Are Used In Each Of Our Dishes.</p>
+  <div class="but"><a href="#about" class="btn btn-outline-dark bor_der mx-2 my-2 px-4 fw-bold">ABOUT ZARA'S</a></div>
+  </div>
+
+  <div class="row my-3">
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="/COLLECTION/About/display1.webp" class="d-block w-100" alt="not found">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="/COLLECTION/About/display2.jpg" class="d-block w-100" alt="not found">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="/COLLECTION/About/display3.webp" class="d-block w-100" alt="not found">
+          </div>
+        </div> 
+      </div>
+  </div>
+<!-- ------------------------ about marquee tag---------------------------- -->
+  <div class="row my-5" >
+          <div class="marquee-container">
+            <div class="marquee-content">
+              <img class="px-1 img-fluid col-lg-4 col-6 " src="/COLLECTION/About/about1.jpg" alt="no img"  loading="lazy">
+              <img class="px-1 img-fluid col-lg-4 col-6 " src="/COLLECTION/About/about2.jpg" alt="no img"  loading="lazy">
+              <img class="px-1 img-fluid col-lg-4 col-6 " src="/COLLECTION/About/about3.jpg" alt="no img"  loading="lazy">
+              <img class="px-1 img-fluid col-lg-4 col-6 " src="/COLLECTION/About/about4.jpg" alt="no img"  loading="lazy">
+              <img class="px-1 img-fluid col-lg-4 col-6 " src="/COLLECTION/About/about5.jpg" alt="no img"  loading="lazy">
+              <img class="px-1 img-fluid col-lg-4 col-6 " src="/COLLECTION/About/about6.jpg" alt="no img"  loading="lazy">
+              <img class="px-1 img-fluid col-lg-4 col-6 " src="/COLLECTION/About/about7.jpg" alt="no img"  loading="lazy">
+            </div>
+          </div>  
+  </div>
+ 
+
+  </div>
+
+<!-- ------------------------------------menu-------------------------- -->
+  <div class="container-fluid " style="height:auto;" id="menu">
+  <div class="row col-lg-10 col-12" >
+    <p class="mt-5 pt-5 font_fam1 text-muted mx-4 fw-bold px-3 ">SET MENUS ONLY AVAILABLE FOR GROUPS OF 10 OR MORE.</p>
+    <p class="mx-4 fw-bolder font_fam1 display-3 " >Get The Full Zolia Experience With Our Set Menus.</p>
+    <div class="but"><a href="#menu" class="btn btn-outline-dark bor_der mx-4 my-1 active px-4 fw-bold">VIEW SEASONAL MENU</a></div>
+  </div>
+
+<!-------------------------------------- menu tabs------------------------ -->
+    <div class="row ">
+      <div class=" wid border font_fam1 border-2 border-dark rounded mt-5 " >
+        <h6 class="text-muted pt-4 ps-4">SET MENU 1</h6>
+        <p class="display-3 fw-bolder ps-4 font_fam2"><sup class="fs-1 fw-light">$</sup>95<sub class="fs-4 text-muted">/guest</sub></p>
+        
+        <div class="text-muted text-wrap">
+          <p class="px-3 ps-4 py-2 font_fam2"><strong>Amuse-Bouche</strong> Chef's selection of a tantalizing bite.</p>
+          <p class="px-3 ps-4 py-2 font_fam2"><strong>Appetizers</strong> Seared Scallop Salad: Perfectly seared scallops on mixed greens with citrus vinaigrette.</p>
+          <p class="px-3 ps-4 py-2 font_fam2"><strong>Soup</strong> Lobster Bisque: Velvety lobster soup with brandy and chive oil.</p>
+          <p class="px-3 ps-4 py-2 font_fam2"><strong>Palate Cleanser</strong> Sorbet Trio: Refreshing lemon, raspberry, and mango sorbets.</p>
+          <p class="px-3 ps-4 py-2 font_fam2"><strong>Main Courses</strong> Grilled Filet Mignon: Prime beef filet with truffle mashed potatoes, asparagus, and red wine reduction. </p>
+          <p class="px-3 ps-4 py-2 font_fam2"><strong>Desserts</strong> Chocolate Decadence: Flourless chocolate cake with raspberry coulis and gold leaf.</p>
+          <p class="px-3 ps-4 py-2 font_fam2"><strong>Coffee and Petit Fours</strong> Freshly Brewed Coffee or Tea: Served with handmade chocolates and pastries.</p>
+        </div>
+        
+      </div>
+      
+      <div class=" wid border font_fam1 border-2 border-dark rounded mt-5"  >
+        <h6 class="text-muted pt-4 ps-4">SET MENU 2</h6>
+        <p class="display-3 fw-bolder ps-4 font_fam2"><sup class="fs-1 fw-light">$</sup>150<sub class="fs-4 text-muted">/guest</sub></p>
+        <div class="text-muted text-wrap">
+          <p class="px-3 ps-4 py-2 font_fam2"><strong>Amuse-Bouche</strong> Chef's selection of a tantalizing bite.</p>
+          <p class="px-3 ps-4 py-2 font_fam2"><strong>Appetizers</strong> Seared Scallop Salad: Perfectly seared scallops on mixed greens with citrus vinaigrette.</p>
+          <p class="px-3 ps-4 py-2 font_fam2"><strong>Soup</strong> Lobster Bisque: Velvety lobster soup with brandy and chive oil.</p>
+          <p class="px-3 ps-4 py-2 font_fam2"><strong>Palate Cleanser</strong> Sorbet Trio: Refreshing lemon, raspberry, and mango sorbets.</p>
+          <p class="px-3 ps-4 py-2 font_fam2"><strong>Main Courses</strong> Grilled Filet Mignon: Prime beef filet with truffle mashed potatoes, asparagus, and red wine reduction. </p>
+          <p class="px-3 ps-4 py-2 font_fam2"><strong>Desserts</strong> Chocolate Decadence: Flourless chocolate cake with raspberry coulis and gold leaf.</p>
+          <p class="px-3 ps-4 py-2 font_fam2"><strong>Coffee and Petit Fours</strong> Freshly Brewed Coffee or Tea: Served with handmade chocolates and pastries.</p>
+        </div>
+      </div>
+      
+    </div>
+
+<!-- ------------------------ menu marquee tag---------------------------- -->
+<div class="row my-5" >
+  <div class="marquee-container">
+    <div class="marquee-content">
+      <img class="px-1 img-fluid col-lg-4 col-6 mar_hei" src="/COLLECTION/menu/menu1.jpg" alt="no img"  loading="lazy">
+      <img class="px-1 img-fluid col-lg-4 col-6 mar_hei" src="/COLLECTION/menu/menu2.jpg" alt="no img"  loading="lazy">
+      <img class="px-1 img-fluid col-lg-4 col-6 mar_hei" src="/COLLECTION/menu/menu3.jpg" alt="no img"  loading="lazy">
+      <img class="px-1 img-fluid col-lg-4 col-6 mar_hei" src="/COLLECTION/menu/menu4.jpg" alt="no img"  loading="lazy">
+      <img class="px-1 img-fluid col-lg-4 col-6 mar_hei" src="/COLLECTION/menu/menu5.jpg" alt="no img"  loading="lazy">
+      <img class="px-1 img-fluid col-lg-4 col-6 mar_hei" src="/COLLECTION/menu/menu6.jpg" alt="no img"  loading="lazy">
+      <img class="px-1 img-fluid col-lg-4 col-6 mar_hei" src="/COLLECTION/menu/menu7.jpg" alt="no img"  loading="lazy">
+    </div>
+  </div>  
+</div>
+
+  </div>
+
+  <!-- --------------------------footer------------------- -->
+<div class="contianer-fluid" id= "contact" style="height:auto;">
+  <!--------------------------- footer_top---------------------------------------------- -->
+  <br>
+    <p class="h1 font_fam2 fw-bolder mt-3 pt-5 ms-5 display-3">Immerse Yourself In A Premium Dining Experience.</p>
+    <div class="but"><a href="booking.html" class="btn btn-outline-dark mx-5 my-4 px-4 bor_der fw-bold">BOOK NOW</a></div>
+<!-- --------------------------------contact details-------------------------- -->
+
+     <div class="container-fluid  bg-dark text-light" style="height: auto;">
+      <div class="row "> 
+        <div class="col-lg-6 col-12 px-5 pt-5">
+          <p class=" h2 fw-bolder  ">hello@zaraorestaurant.com</p>
+          <p class=" h2 fw-bolder ">(07) 0000 0000</p>
+        </div>
+      </div>  
+      <div class="row pt-3 ">
+          
+          <div class="col-lg-2 col-6 font_fam2 fs-6 ps-5 ">
+            <p class="mt-3 fw-bolder pt-5">OPENING HOURS</p>
+            <p class="mt-2 fw-bolder">Lunch Hours:</p>
+            <p class="mt-2fw-bold">Fri-Sun From 11.30am</p>
+
+            <p class="mt-3 fw-bolder">Dinner Hours: </p>
+            <p class="mt-2 fw-bold">Mon-Sat, 5.30pm-11.00pm</p>
+          </div>
+        <div class="col-lg-2 col-6 font_fam2 fs-6  px-5 "> 
+            <p class="mt-2 fw-bolder pt-5"> <a href="#gallery" class="anch">GALLERY</a></p>
+            <p class="mt-2 fw-bolder"><a href="#about" class="anch">ABOUT</a></p>
+            <p class="mt-2 fw-bolder"><a href="#menu" class="anch">MENU</a></p>
+
+            <p class="mt-2 fw-bolder"><a href="/HTML/booking.html" class="anch">BOOKING</a></p>
+            <p class="mt-2 fw-bolder">INSTAGRAM</p>
+            <p class="mt-2 fw-bolder">FACEBOOK</p>
+        
+        </div>
+     <!-- ----------------------------------map emded here--------------------- -->
+      <div class="col-lg-6 col-12  text-light ">
+        <div class="padd_ing" >
+            <iframe   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31263.602965921968!2d78.14241994714355!3d11.62688700107936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3babf1ccf52cba0b%3A0xee9989007068ca47!2sSalem%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1711962764985!5m2!1sen!2sin" width="600" height="370" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p class="text-light fw-bolder font_fam2 py-4 ">5/2A Zara Street, Salem City, Tamil nadu, India</p>
+          </div>
+      </div>
+      <div class="container px-5 pt-5"> 
+        <hr>
+        <p class="font_fam1 fw-bolder text-light  py-3 fo_nt_si">ZaRa Restaurant & Bar © 2023.</p>
+      </div>
+        </div> 
+     </div>
+
+
+
+</div>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+</body>
+</html>
